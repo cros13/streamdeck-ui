@@ -2,6 +2,7 @@
 import os
 
 PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
+ICON = os.path.join(PROJECT_PATH, "../art/icon.png")
 LOGO = os.path.join(PROJECT_PATH, "logo.png")
 FONTS_PATH = os.path.join(PROJECT_PATH, "fonts")
 DEFAULT_FONT = os.path.join("roboto", "Roboto-Regular.ttf")
